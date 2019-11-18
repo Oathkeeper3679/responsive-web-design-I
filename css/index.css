@@ -1,3 +1,179 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+.logo{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.container{
+	margin: 0 auto;
+	margin-top: 40px;
+	position: relative;
+}
+
+.container nav a{
+	margin-right: 20px;
+	text-decoration: none; 
+}
+
+button{
+	background-color: white;
+	border: black 2px solid;
+	padding: 10px 20px;
+
+}
+.container nav a:hover{
+	color: lightskyblue; 
+}
+
+.container header{
+	margin-top: 60px;
+	border-bottom: 2px solid lightgrey;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+}
+
+.cta{
+	width: 50%;
+	float: left;
+	margin-top: 60px;
+	text-align: center;	
+}
+
+.cta h1{
+font-size: 72px;
+}
+
+.cta-2{
+	width: 50%;
+	float: right;
+}
+
+.bottom{
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid lightgrey;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+}
+
+.bottom-div-1{
+	width: 33%;
+	float: left;
+}
+
+.bottom-div-2{
+	width: 33%;
+	float: left;
+}
+
+.bottom-div-3{
+	width: 33%;
+	float: right;
+}
+
+.blank{
+	clear: both;
+}
+
+.middle-img{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.text-content-1{
+	width: 50%;
+	float: left;
+}
+
+.text-content-2{
+	width: 50%;
+	float: right;
+}
+
+/*tablet*/
+
+@media(max-width: 800px){
+.container{
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.container nav a{
+	margin-right: 20px;
+	text-decoration: none; 
+}
+
+button{
+	background-color: white;
+	border: black 2px solid;
+	padding: 10px 20px;
+
+}
+.container nav a:hover{
+	color: lightskyblue; 
+}
+
+.container header{
+	margin-top: 60px;
+	border-bottom: 2px solid lightgrey;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+}
+}
+
+/*mobile*/
+
+@media (max-width:500px){
+  .cta h1 button {
+    font-size: 60px;
+  }
+  
+  .container{
+    width: 100%;
+  }
+  
+  .main-content {
+    width: 90%;
+    margin: 0, auto;
+  }
+  
+  .container .navigation {
+   flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .container .navigation a {
+    border: 1px solid black;
+    padding: 5% 100%;
+  }
+  
+  
+  .main-content,
+  .bottom {
+    flex-direction: column;
+    margin: 10px 0:
+    margin-bottom: 20px;
+  }
+  
+  .top-content-1,
+  .top-content-2 {
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  .bottom-div-1,
+  .bottom-div-2,
+  .bottom-div-3 {
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  .footer {
+    height: 60%;
+  }
+}
+
+
 
